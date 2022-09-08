@@ -3,7 +3,7 @@ public class Health {
 
 
     public static double calculateBmi(double pWeight, double pHeight){
-        return pWeight / (pHeight * pHeight);
+        return pWeight * (pHeight * pHeight);
     }
 
     public static String bmi(double pBmi){
