@@ -1,7 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class MultiplicationQuiz {
+public class
+
+MultiplicationQuiz {
     Random rand = new Random();
     Scanner sc = new Scanner(System.in);
 
