@@ -41,12 +41,11 @@ public class Password {
     }
 
     public boolean changePassword(char[] oldpw, char[] newpw){
-
-            for(int i = 0; i > newpw.length ; i++) {
-                getPassword()[i] = newpw[i];
-            }
-            return  true;
+        for(int i = 0; i > newpw.length ; i++) {
+            getPassword()[i] = newpw[i];
         }
+        return  true;
+
     }
 
     public void deletePassword(){

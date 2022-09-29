@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args){
-        MultiplicationQuiz mq = new MultiplicationQuiz();
+        Tvremote tv = new Tvremote();
 
-        System.out.println(mq.getExcersice());
-        System.out.println(mq.checkResult());
+        tv.changeChannelnumber(1);
+        tv.changeChannelname("ARD");
+        tv.changeChannelnumber(31);
+        System.out.println(tv.toString());
+
 
 
 
